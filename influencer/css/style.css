@@ -1,0 +1,397 @@
+/*
+	Template: Code Note HTML5 Template
+	Version: 2.0.0
+	Author: Raymond Manga.
+	Design and Developed by: logicsforest.com
+	NOTE: This is main stylesheet of template, This file contains the styling for the actual Template.
+*/
+
+/* ================================= */
+/* -------- Typography CSS --------- */
+/* ================================= */
+body {
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: #0A0E17;
+	overflow-x: hidden;
+}
+a {
+	outline: medium none !important;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	text-decoration: none !important;
+}
+ul,li{
+	margin:0;
+	padding:0;
+}
+a:focus {
+	color: #040f35;
+	text-decoration: none !important;
+}
+a:hover {
+	color: #040f35;
+	text-decoration: none !important;
+}
+input {
+	outline: medium none !important;
+	color:#1F9E0F;
+}
+p{
+	margin:0;
+}
+.h1, h1,
+.h2, h2,
+.h3, h3,
+.h4, h4,
+.h5, h5,
+.h6, h6 {
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 700;
+	margin: 0px;
+}
+.container-fluid{
+	padding-left:80px;
+	padding-right:80px;
+}
+.container{
+	max-width:1170px;
+}
+
+/** Heading **/
+.heading{
+	margin-bottom:50px;
+}
+.heading h2{
+	font-size:42px;
+	color:#040f35;
+}
+.heading.text-white h2{
+	color:#fff;
+}
+.heading p{
+	font-size:14px;
+	margin-top:15px;
+}
+
+/* ================================= */
+/* ---------- Header CSS ----------- */
+/* ================================= */
+.header{
+	background: #2D2935;
+}
+.header .navbar-expand-lg {
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	padding: 10px 0;
+}
+.menu-button .navbar-brand {
+	max-width: 165px;
+	display: inline-block;
+}
+.menu-button .navbar-brand img{
+	width:100%;
+}
+.header .right-side {
+	justify-content:center;
+	width: 100%;
+}
+.header .navbar-nav .nav-item .nav-link {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #FEFDFF;
+	padding: 0;
+	margin: 0 50px 0 0;
+}
+.header .navbar-nav .nav-item .nav-link:hover,
+.header .navbar-nav .nav-item .nav-link:focus,
+.header-button a.simple-link:hover{
+	color:#846ACE;
+}
+.header-button {
+	margin: 0 0 0 60px;
+}
+.header-button a {
+	display: inline-block;
+	padding: 10px 30px;
+	color: #fff;
+}
+.simple-link img {
+	width: 13px;
+	margin-right: 10px;
+}
+
+/* ================================= */
+/* ---------- Features CSS --------- */
+/* ================================= */
+.features{
+	background: url(../images/bg.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.features-top{
+	text-align: center;
+	padding-top:180px;
+	padding-bottom:300px;
+}
+.features-top h2{
+	font-weight: 600;
+	font-size: 55px;
+	line-height: 82px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #0A0E17;
+}
+.features-top p{
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 27px;
+	text-align: center;
+	color: #000000;
+	max-width:770px;
+	margin:50px auto 75px auto;
+}
+.features-top a {
+	display: inline-block;
+	background: -o-linear-gradient(354.12deg, #4491D8 -16.15%, #4632C5 126.14%);
+	background: linear-gradient(95.88deg, #4491D8 -16.15%, #4632C5 126.14%);
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 27px;
+	color: #F9FBFF;
+	padding: 20px 100px;
+}
+.features-top a:hover,
+.features-top a:focus{
+	background: -o-linear-gradient(354.12deg, #4632C5 -16.15%, #4491D8 126.14%);
+	background: linear-gradient(95.88deg, #4632C5 -16.15%, #4491D8 126.14%);
+	color:#fff;
+}
+
+
+/* ================================= */
+/* --------- Footer CSS ------------ */
+/* ================================= */
+.feature-box{
+	background: linear-gradient(97.28deg, rgba(61, 121, 191, 0.6) -21.85%, rgba(78, 50, 137, 0.6) 123.6%);
+	backdrop-filter: blur(5px);
+	border-radius: 5px;
+	padding:50px;
+	text-align: center;
+}
+.features .row,
+.form-section .row{
+	margin-left:-25px;
+	margin-right:-25px;
+}
+.form-section .row .col-lg-4,
+.features .row .col-lg-4{
+	padding-left:25px;
+	padding-right:25px;
+	margin-bottom:80px;
+}
+.feature-box h5{
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 36px;
+	text-align: center;
+	color: #F9FBFF;
+	margin-bottom:10px;
+}
+.feature-box p{
+	margin-top:20px;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 27px;
+	text-align: center;
+	color: #F9FBFF;
+}
+.tm-lg-5 {
+	margin-top: 90px;
+}
+.tm-lg-10{
+	margin-top: 180px;
+}
+
+/* ================================= */
+/* ----------- Form CSS ------------ */
+/* ================================= */
+.form-section{
+	margin-top:150px;
+}
+.form-section h2{
+	max-width:1200px;
+	margin:0 auto;
+	text-align: center;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 45px;
+	color: #0A0E17;
+}
+.form-section p{
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 27px;
+	color: #000000;
+	text-align:center;
+	margin-top:30px;
+	margin-bottom:100px;
+}
+.default-form .form-group{
+	position: relative;
+}
+.default-form .form-group span{
+	position: absolute;
+	left:15px;
+	transform: translateY(-50%);
+	top:50%;
+}
+.default-form .form-group .form-control{
+	border: 1px solid rgba(10, 14, 23, 0.5);
+	border-radius: 5px;
+	height:70px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #000000;
+	padding-left:45px;
+}
+.default-form .form-group .form-control::placeholder {
+	color: rgba(10, 14, 23, 0.5);
+}
+.default-form button{
+	display: inline-block;
+	background: -o-linear-gradient(354.12deg, #4491D8 -16.15%, #4632C5 126.14%);
+	background: linear-gradient(95.88deg, #4491D8 -16.15%, #4632C5 126.14%);
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 27px;
+	color: #F9FBFF;
+	padding: 20px 100px;
+	border: none;
+}
+.default-form button:hover,
+.default-form button:focus{
+	background: -o-linear-gradient(354.12deg, #4632C5 -16.15%, #4491D8 126.14%);
+	background: linear-gradient(95.88deg, #4632C5 -16.15%, #4491D8 126.14%);
+	color:#fff;
+}
+
+/* ================================= */
+/* ------- Humain Life CSS --------- */
+/* ================================= */
+.humain-life-section{
+	padding:120px 0 100px 0;
+}
+.humain-life-section .row{
+	margin-left:-25px;
+	margin-right:-25px;
+}
+.humain-life-section .row .col-lg-3{
+	padding-left:25px;
+	padding-right:25px;
+}
+.humain-life-box{
+	text-align: center;
+	margin-bottom:100px;
+}
+.humain-life-box img{
+	width:50px;
+}
+.humain-life-box h4{
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 36px;
+	color: #0A0E17;
+	margin-top:20px;
+	margin-bottom:15px;
+}
+.humain-life-box p{
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 27px;
+	color: #0A0E17;
+}
+
+/* ================================= */
+/* --------- Footer CSS ------------ */
+/* ================================= */
+.footer{
+	background: #0A0E17;
+	padding:120px 0;
+}
+.footer-box h5{
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 27px;
+	color: rgba(254, 253, 255, 0.5);
+	margin-bottom:30px;
+}
+.footer-box ul{
+	list-style:none;
+}
+.footer-box ul li{
+	display: block;
+}
+.footer-box ul li a{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #FEFDFF;
+	margin-bottom:15px;
+	display: inline-block;
+}
+.footer-box ul li a:hover,
+.footer-box ul li a:focus{
+	color: #6B4AC9;
+}
+.footer-box-subscribe h4{
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+	color: #F9FBFF;
+}
+.footer-box-subscribe .form-group {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	border-bottom: 1px solid rgba(254, 253, 255, 0.5);
+	padding: 40px 0 10px 0;
+}
+.footer-box-subscribe .form-group .form-control {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	background: transparent;
+	border: none;
+	color: #fff;
+	height: 25px;
+	box-shadow:none;
+}
+.footer-box-subscribe .form-group button{
+	background:transparent;
+	border:none;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: rgba(254, 253, 255, 0.5);
+}
+.copyright p{
+	margin-top:50px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #FFFDFA;
+}
+
